@@ -20,7 +20,7 @@ const App = () => {
         <MovieList/>
       </Route>
       <Route exact path= "/movies/:id">
-      <Movie/>
+      <Movie items={MovieList}/>
       </Route>
 
     
